@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #848CFF;
+    font-family: 'Roboto', sans-serif;
+}
+.img-card{
+    background-image: url("http://erp.iibm.in/weblogin/image/login22.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.m-text{
+    color: #fff;
+   text-align: center;
+;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    color: #fff;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
+.b-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+}
+.m-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.form-card{
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+/* .m-form-card{
+    /* display: flex;
+    justify-content: center; */
+
+input{
+    width: 200px;
+    background-color: #EFF0F2;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.r-sec{
+    display: flex;
+    
+}
+.box{
+    width: 10px;
+}
+.l-r-section{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    margin-left:20px ;
+    color: #787878;
+    
+}
+button{
+    background-color: #ff1420;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border-style: none;
+}
+button:hover{
+    background-color: #d4151f;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #565555;
+}
